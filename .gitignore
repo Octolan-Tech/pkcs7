@@ -3,6 +3,41 @@
 *.a
 *.so
 
+# Go build artifacts
+bin/
+*.dll
+*.dylib
+
+# Output of coverage tool
+*.out
+
+# Dependency directories
+vendor/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Go modules
+/go.sum
+
+# Logs
+*.log
+
+# Test cache
+go-test-cache/
+
+# PKCS7 specific
+*.pem
+*.crt
+*.key
+
 # Folders
 _obj
 _test
